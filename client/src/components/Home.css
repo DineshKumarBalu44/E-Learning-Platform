@@ -1,0 +1,73 @@
+/* src/components/Home.css */
+
+*{
+  font-family: "Comic Sans MS";
+}
+
+.home {
+  text-align: center;
+  background-color: white;
+  /* padding: 20px; */
+}
+
+.hero-section {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: black;
+}
+
+
+
+.container {
+  display: flex;
+  height: 100%;
+}
+.left {
+  flex: 1;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  flex: 1;
+  background-color: #f6efdf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 650px;
+  height: max-content;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.r{
+  color: #5e74ad ;
+  font-size: 50px;
+}
+
+.card>h2{
+  font-size:  35px;
+  color: #68ab8c;
+}
